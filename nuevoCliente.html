@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Cliente</title>
+    <title>Nuevo cliente</title>
+    <link rel="stylesheet" href="./CSS/nuevoCliente.css">
 </head>
+
 <body>
 
-    <h1>NUEVO CLIENTE</h1>
+  <div class="Navbar">
+    <nav class="navigation">
+      <div class="Navbar2"><a href="./paginaPrincipal.html">INICIO</a></div>
+      <div class="Navbar2" id="Navbar22"><a href="./nuevoCliente.html">NUEVO CLIENTE</a></div>
+    </nav>
+  </div>
 
-    <h2>Numero Documento:</h2>
-    <h2>Nombres:</h2>
-    <h2>Apellidos: </h2>
+  <div class="Content">
+    <div class="ColumR">
 
+    </div >
+  
+    <div class="Center">
+      
+      <div class="titutable">
+        <h3>NUEVO CLIENTE</h3>
+      </div>
 
+      <div class="form">
+        <form method="post" enctype="multipart/form-data">
+            <label for="doc">Número Documento: </label>
+            <input type="text" doc="doc" id="doc"/>
+            <br>
+            <label for="name">Nombres: </label>
+            <input type="text" name="name" id="name"/>
+            <br>
+            <label for="apell">Apellidos: </label>
+            <input type="text" apell="apell" id="apell"/>
+            <br>
+            <button class="but" type="button">Guardar</button>
+        </form>
+        
+      </div>
+      
+    </div>
     
-    
+    <div class="ColumL">
+  
+    </div>
+
+  </div>
+   
 </body>
 </html>

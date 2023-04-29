@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.Navbar{
+    padding: 15px;
+    border: 1px solid;
+}
+
+.navigation{
+    padding-left: 140px;
+}
+
+.Navbar2{
+    padding: 5px;
+    display:inline-block;
+}
+
+#Navbar22{
+    padding-left: 35px;
+}
+
+.Content{
+    display: flex;
+}
+
+.ColumR{
+    padding: 5px;
+    border: 1px solid;
+    width: 10%;
+}
+
+.Center{
+    padding: 50px;
+    border: 1px solid;
+    width: 80%;
+}
+
+.titutable{
+    text-align:center
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 17px;
+    text-align: center
+}
+
+.ColumL{
+    padding: 5px;
+    border: 1px solid;
+    width: 10%;
+}
+
+.ind{
+    padding-left: 45px;
+    font-weight: 900;
+    text-align: left
+}

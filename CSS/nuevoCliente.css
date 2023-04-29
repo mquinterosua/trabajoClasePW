@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.Navbar{
+    padding: 15px;
+    border: 1px solid;
+}
+
+.navigation{
+    padding-left: 140px;
+}
+
+.Navbar2{
+    padding: 5px;
+    display:inline-block;
+}
+
+#Navbar22{
+    padding-left: 35px;
+}
+
+.Content{
+    display: flex;
+}
+
+.ColumR{
+    padding: 5px;
+    border: 1px solid;
+    width: 10%;
+}
+
+.Center{
+    padding: 50px;
+    border: 1px solid;
+    width: 80%;
+}
+
+.titutable{
+    text-align:center
+}
+
+form {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+label {
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+input {
+    width: 50%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+}
+
+
+.ColumL{
+    padding: 5px;
+    border: 1px solid;
+    width: 10%;
+}
+
+
+

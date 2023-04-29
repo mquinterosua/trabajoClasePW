@@ -5,24 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página principal</title>
+    <link rel="stylesheet" href="./CSS/paginaPrincipal.css">
 </head>
 
 <body>
-    <h1>LISTA CLIENTES</h1>
 
-    <table style="margin-left:auto;margin-right:auto;">
-        <tr>
-          <th>DOCUMENTO</th>
-          <th>NOMBRES</th>
-          <th>APELLIDOS</th>
-          <th>ACCIONES</th>
-        </tr>
-        <tr>
-          <td>10887282</td>
-          <td>CAMILO</td>
-          <td>PLAZA</td>
-          <td><button type="button">DETALLLES</button> <button type="button">ELIMINAR</button></td>
-        </tr>
-      </table>
+  <div class="Navbar">
+    <nav class="navigation">
+      <div class="Navbar2"><a href="./paginaPrincipal.html">INICIO</a></div>
+      <div class="Navbar2" id="Navbar22"><a href="./nuevoCliente.html">NUEVO CLIENTE</a></div>
+    </nav>
+  </div>
+
+  <div class="Content">
+    <div class="ColumR">
+
+    </div >
+  
+    <div class="Center">
+      
+      <div class="titutable">
+        <h3>LISTA CLIENTES</h3>
+      </div>
+
+      <div class="table">
+        <table>
+          <tr>
+            <th>DOCUMENTO</th>
+            <th>NOMBRES</th>
+            <th>APELLIDOS</th>
+            <th>ACCIONES</th>
+          </tr>
+          <tr>
+            <td>10887283</td>
+            <td>CAMILO</td>
+            <td>PLAZA</td>
+            <td><a id="button" href="./clienteDetalle.html">DETALLLES</a> <a id="button">ELIMINAR</a>
+          </tr>
+          <tr> <td> </td><td> </td><td> </td><td> </td></tr>
+          <tr> <td> </td><td> </td><td> </td><td> </td></tr>
+          <tr> <td> <td> </td><td> </td><td> </td></td></tr>
+        </table>
+      </div>
+      
+    </div>
+    
+    <div class="ColumL">
+  
+    </div>
+
+  </div>
+   
 </body>
 </html>
