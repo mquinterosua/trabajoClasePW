@@ -9,12 +9,12 @@ a{
     font-weight: 600;
 }
 
-.Navbar{
+#Navbar{
     padding: 15px;
     border: 1px solid;
 }
 
-.navigation{
+#navigation{
     padding-left: 140px;
 }
 
@@ -31,16 +31,20 @@ a{
     display: flex;
 }
 
-.ColumR{
+.Colum{
     padding: 5px;
     border: 1px solid;
     width: 10%;
 }
 
-.Center{
+#Center{
     padding: 50px;
     border: 1px solid;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    height:100vh;
 }
 
 .titutable{
@@ -48,32 +52,29 @@ a{
 }
 
 form {
-    padding: 20px;
     width: 100%;
     border: 1px solid black;
-    border-collapse: collapse;
+    margin-top: 25px;
 }
 
 label {
+    padding: 25px;
     font-weight: 900;
-    margin-bottom: 10px;
-    text-align: left
+    text-align: left;
+    margin: auto;
 }
 
 input {
+    margin-top: 25px;
     width: 50%;
     padding: 7px;
     border: 1px solid black;
     border-radius: 4px;
-    margin-bottom: 20px;
-    
 }
 
-
-.ColumL{
-    padding: 5px;
-    border: 1px solid;
-    width: 10%;
+#but{
+    margin: 25px;
+    align-items: center;
 }
 
 

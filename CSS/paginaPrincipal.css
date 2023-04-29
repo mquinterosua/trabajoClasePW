@@ -9,12 +9,12 @@ a{
     font-weight: 600;
 }
 
-.Navbar{
+#Navbar{
     padding: 15px;
     border: 1px solid;
 }
 
-.navigation{
+#navigation{
     padding-left: 140px;
 }
 
@@ -31,16 +31,20 @@ a{
     display: flex;
 }
 
-.ColumR{
+.Colum{
     padding: 5px;
     border: 1px solid;
     width: 10%;
 }
 
-.Center{
-    padding: 50px;
+#Center{
+    padding: 30px;
     border: 1px solid;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    height:100vh;
 }
 
 .titutable{
@@ -51,18 +55,13 @@ table {
     width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
+    margin-top: 25px;
 }
 
 th, td {
-    padding: 17px;
+    padding:15px;
 	border-bottom: 1px solid black;
-    text-align: center
-}
-
-.ColumL{
-    padding: 5px;
-    border: 1px solid;
-    width: 10%;
+    text-align: center;
 }
 
 #button {
@@ -90,16 +89,4 @@ th, td {
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-}
-
-#button {
-  border-bottom-color: #a2a6ac;
-}
-
-#button {
-  border-bottom-color: #a2a6ac;
-}
-
-#button {
-  border-color: #a2a6ac #979aa1 #82858a;
 }
